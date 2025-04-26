@@ -4,25 +4,33 @@ A modern, customizable First-Person Shooter controller built in Unity, featuring
 
 ## ✨ Features
 
-- **Advanced Movement System**
-  - Smooth acceleration and deceleration
-  - Customizable movement parameters
+- **Movement Mechanics**
+  - Smooth ground movement with acceleration and deceleration
+  - Jump mechanics with variable height based on input
+  - Dash ability with visual and audio feedback
   - Ground detection and slope handling
+  - Momentum-based movement system
 
-- **Physics-Based Gravity**
-  - Custom gravity system with `GravityBody` and `GravityAttractor`
-  - Realistic planetary gravity simulation
-  - Adjustable gravity parameters
+- **Camera System**
+  - Dynamic camera tilt based on horizontal movement
+  - Smooth camera bob effect during movement
+  - Post-processing effects (Chromatic Aberration during dash)
+  - Dynamic depth of field based on focus distance
+  - Landing drop camera effect with customizable curves
 
-- **Camera Effects**
-  - Dynamic camera shake system
-  - Smooth camera transitions
-  - Customizable camera settings
+- **Audio Feedback**
+  - Footstep sounds with random clip selection
+  - Jump and landing sound effects with volume scaling
+  - Dash sound effect with post-processing
+  - Speed-based woosh sounds during air movement
+  - Custom audio extension methods for random clip playback
 
-- **Input System**
-  - Modern input handling with `FrameInput`
-  - Configurable key bindings
-  - Smooth input processing
+- **Visual Effects**
+  - Particle system for speed lines during fast movement
+  - Post-processing volume integration
+  - Dynamic depth of field adjustment
+  - Camera shake and tilt effects
+  - Visual feedback for movement states
 
 ## 🏗️ Project Structure
 
@@ -50,10 +58,10 @@ Assets/
 ## 🛠️ Customization
 
 The controller is highly customizable through the Unity Inspector:
-- Adjust movement speed, acceleration, and deceleration
-- Modify gravity settings
-- Configure camera shake intensity and frequency
-- Customize input bindings
+- Adjust movement parameters (speed, acceleration, etc.)
+- Configure camera effects (tilt, post-processing)
+- Customize audio settings (footsteps, jumps, etc.)
+- Modify visual effects (speed lines, particles)
 
 ## 📝 License
 

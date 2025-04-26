@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FrameInput : MonoBehaviour
+public struct FrameInput
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Vector2 Move;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Vector2 Look;
+
+    public bool JumpDown;
+
+    public bool JumpHeld;
+
+    public bool DashDown;
+
+    public bool AttackDown;
 }
