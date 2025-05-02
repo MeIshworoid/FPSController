@@ -13,7 +13,7 @@ A modern, customizable First-Person Shooter controller built in Unity, featuring
 
 - **Camera System**
   - Dynamic camera tilt based on horizontal movement
-  - Smooth camera bob effect during movement
+  - Smooth camera  effect during movement
   - Post-processing effects (Chromatic Aberration during dash)
   - Dynamic depth of field based on focus distance
   - Landing drop camera effect with customizable curves
